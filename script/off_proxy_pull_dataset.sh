@@ -25,6 +25,16 @@ echo "\n
 *---------------------------------------------- (Start Automated Build Service) --------------------------------------------*
 "
 
+echo "\n\n<Automated Execution Command 🕐  $(date +%00000:%S)>:  \$>_  🔐   UnSet Proxy -> HTTP  🔓 "
+git config --global --unset http.proxy
+sleep 1
+echo "\n"
+
+echo "\n<Automated Execution Command 🕑  $(date +%00000:%S)>:  \$_>  🔐   UnSet Proxy -> HTTPS  🔓  \n"
+git config --global --unset https.proxy
+sleep 2
+echo "\n"
+
 echo "\n\n<Automated Execution Command 🕐  $(date +%00000:%S)>:  \$>_  📡   Pull 'Dev' Branch DataSet  🔍"
 git pull
 sleep 1
