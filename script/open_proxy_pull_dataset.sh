@@ -25,7 +25,7 @@ git checkout main
 sleep 1
 echo "\n"
 
-echo "\n<Automated Execution Command 🕑  $(date +%00000:%S)>:  \$_>  📥   Pull Main DataSet  📥\n"
+echo "\n<Automated Execution Command 🕑  $(date +%00000:%S)>:  \$_>  📥   Pull 'Main' DataSet  📥\n"
 git pull
 sleep 2
 echo "\n"
