@@ -2,12 +2,6 @@
 
 # chmod +xrw ./script/create_dev_branch.sh
 
-#git config --global --unset http.proxy
-#sleep 1
-
-#git config --global --unset https.proxy
-#sleep 2
-
 echo "\n
 |*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*|\t\n
 |\tWelcome to                                                                                                          |\t\n
@@ -21,8 +15,17 @@ echo "\n
 *---------------------------------------------- (Start Automated Build Service) --------------------------------------------*
 "
 
-# echo "*-------------------------------------------------------------------------------------------*"
-echo "\n\n<Automated Execution Command 🕐  $(date +%00000:%S)>:  \$>_  📡   Create Locally And Switch To The 'Dev' Branch  🔍"
+#echo "\n\n<Automated Execution Command 🕐  $(date +%00000:%S)>:  \$>_  🔐   UnSet Proxy -> HTTP  🔓 "
+#git config --global --unset http.proxy
+#sleep 1
+#echo "\n"
+
+#echo "\n<Automated Execution Command 🕑  $(date +%00000:%S)>:  \$_>  🔐   UnSet Proxy -> HTTPS  🔓  \n"
+#git config --global --unset https.proxy
+#sleep 2
+#echo "\n"
+
+echo "\n\n<Automated Execution Command 🕐  $(date +%00000:%S)>:  \$>_  ⚠️   Create Locally And Switch To The 'Dev' Branch  ✅  "
 git checkout -b dev
 sleep 1
 echo "\n"

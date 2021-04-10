@@ -1,12 +1,16 @@
 #!/usr/bin/env sh
 
-# chmod +xrw ./script/pull_dataset.sh
+# chmod +xrw ./script/off_proxy_pull_dataset.sh
 
+echo "\n\n<Automated Execution Command 🕐  $(date +%00000:%S)>:  \$>_  🔐   UnSet Proxy -> HTTP  🔓 "
 git config --global --unset http.proxy
 sleep 1
+echo "\n"
 
+echo "\n<Automated Execution Command 🕑  $(date +%00000:%S)>:  \$_>  🔐   UnSet Proxy -> HTTPS  🔓  \n"
 git config --global --unset https.proxy
 sleep 2
+echo "\n"
 
 echo "\n
 |*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*|\t\n
@@ -26,12 +30,22 @@ git pull
 sleep 1
 echo "\n"
 
-echo "\n<Automated Execution Command 🕑  $(date +%00000:%S)>:  \$_>  💬   Checkout 'Main' Branch & Pull Main DataSet  📲\n"
+echo "\n<Automated Execution Command 🕑  $(date +%00000:%S)>:  \$_>  💬   Checkout 'Main' Branch  📲  \n"
 git checkout main
 sleep 1
+echo "\n"
 
+echo "\n\n<Automated Execution Command 🕐  $(date +%00000:%S)>:  \$>_  🔐   UnSet Proxy -> HTTP  🔓 "
 git config --global --unset http.proxy
+sleep 1
+echo "\n"
+
+echo "\n<Automated Execution Command 🕑  $(date +%00000:%S)>:  \$_>  🔐   UnSet Proxy -> HTTPS  🔓  \n"
 git config --global --unset https.proxy
+sleep 2
+echo "\n"
+
+echo "\n<Automated Execution Command 🕑  $(date +%00000:%S)>:  \$_>  📥   Pull Main DataSet  📥\n"
 git pull
 sleep 2
 echo "\n"

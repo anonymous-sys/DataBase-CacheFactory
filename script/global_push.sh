@@ -1,10 +1,6 @@
 #!/usr/bin/env sh
 
-#git config --global --unset http.proxy
-#sleep 1
-
-#git config --global --unset https.proxy
-#sleep 2
+# chmod +xrw ./script/global_push.sh
 
 echo "\n
 |*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*|\t\n
@@ -19,8 +15,16 @@ echo "\n
 *---------------------------------------------- (Start Automated Build Service) --------------------------------------------*
 "
 
+#echo "\n\n<Automated Execution Command 🕐  $(date +%00000:%S)>:  \$>_  🔐   UnSet Proxy -> HTTP  🔓 "
+#git config --global --unset http.proxy
+#sleep 1
+#echo "\n"
 
-# echo "*-------------------------------------------------------------------------------------------*"
+#echo "\n<Automated Execution Command 🕑  $(date +%00000:%S)>:  \$_>  🔐   UnSet Proxy -> HTTPS  🔓  \n"
+#git config --global --unset https.proxy
+#sleep 2
+#echo "\n"
+
 echo "\n\n<Automated Execution Command 🕐  $(date +%00000:%S)>:  \$>_  📡   Update Information  🔍"
 git add . 
 echo "\n"
@@ -51,7 +55,6 @@ echo "\n"
 echo "\n<Automated Execution Command 🕖  $(date +%00000:%S)>:  \$>_  🤫   Checkout 'Dev' Branch  🏁\n"
 git checkout dev
 echo "\n\n 🍻  Congratulation Of You 🍻  When You Are Working, You Will Be Proud Of Your Worth, Keep Going!"
-
 
 echo "\n
 |*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*|\t\n

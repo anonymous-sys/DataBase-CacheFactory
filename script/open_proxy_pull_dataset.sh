@@ -1,12 +1,6 @@
 #!/usr/bin/env sh
 
-# chmod +xrw ./script/pull_dataset.sh
-
-#git config --global --unset http.proxy
-#sleep 1
-
-#git config --global --unset https.proxy
-#sleep 2
+# chmod +xrw ./script/open_proxy_pull_dataset.sh
 
 echo "\n
 |*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*|\t\n
@@ -21,22 +15,22 @@ echo "\n
 *---------------------------------------------- (Start Automated Build Service) --------------------------------------------*
 "
 
-echo "\n\n<Automated Execution Command 🕐  $(date +%00000:%S)>:  \$>_  📡   Pull 'Dev' Branch DataSet  🔍"
+echo "\n\n<Automated Execution Command 🕐  $(date +%00000:%S)>:  \$>_  ♻️   Pull 'Dev' Branch DataSet  🔐  "
 git pull
 sleep 1
 echo "\n"
 
-echo "\n<Automated Execution Command 🕑  $(date +%00000:%S)>:  \$_>  💬   Checkout 'Main' Branch & Pull Main DataSet  📲\n"
+echo "\n<Automated Execution Command 🕑  $(date +%00000:%S)>:  \$_>  🛠   Checkout 'Main' Branch  📲\n"
 git checkout main
-#git config --global --unset http.proxy
-#git config --global --unset https.proxy
 sleep 1
+echo "\n"
 
+echo "\n<Automated Execution Command 🕑  $(date +%00000:%S)>:  \$_>  📥   Pull Main DataSet  📥\n"
 git pull
 sleep 2
 echo "\n"
 
-echo "\n<Automated Execution Command 🕒  $(date +%00000:%S)>:  \$>_  📮   Checkout 'Dev' Branch  📤\n"
+echo "\n<Automated Execution Command 🕒  $(date +%00000:%S)>:  \$>_  🔓   Checkout 'Dev' Branch  🔒\n"
 git checkout dev
 sleep 2
 echo "\n\n 🍻  Congratulation Of You 🍻  When You Are Working, You Will Be Proud Of Your Worth, Keep Going!"
