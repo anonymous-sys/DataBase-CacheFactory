@@ -1,10 +1,10 @@
 #!/usr/bin/env sh
 
-#git config --global --unset http.proxy
-#sleep 1
+git config --global --unset http.proxy
+sleep 1
 
-#git config --global --unset https.proxy
-#sleep 2
+git config --global --unset https.proxy
+sleep 2
 
 echo "\n
 |*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*|\t\n
