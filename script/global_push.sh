@@ -44,6 +44,7 @@ sleep 2
 echo "\n"
 
 echo "\n<Automated Execution Command 🕔  $(date +%00000:%S)>:  \$>_  📬   Merge 'Dev' Branch  📤 \n"
+git commit -S -a -m "Success Build Data Base Cache Factory"
 git merge dev
 echo "\n"
 
