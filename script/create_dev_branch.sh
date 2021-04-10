@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
+# chmod +xrw ./script/create_dev_branch.sh
+
 #git config --global --unset http.proxy
 #sleep 1
 
