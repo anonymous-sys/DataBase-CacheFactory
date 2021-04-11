@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
+#!/bin/bash
 
 # chmod +xrw ./script/non_proxy_push.sh
 
