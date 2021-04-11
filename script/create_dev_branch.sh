@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
+#!/bin/bash
 
 # chmod +xrw ./script/create_dev_branch.sh
 
