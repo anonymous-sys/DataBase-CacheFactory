@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
+#!/bin/bash
 
 # chmod +xrw ./script/off_proxy_pull_dataset.sh
 
