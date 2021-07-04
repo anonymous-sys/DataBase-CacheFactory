@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 #!/bin/bash
 
-# chmod +xrw ./script/create_dev_branch.sh
+# chmod +xrw ./script/common/build_package.sh
 
 echo "\n
 ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐\t

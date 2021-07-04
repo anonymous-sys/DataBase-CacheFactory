@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 #!/bin/bash
 
-# chmod +xrw ./script/global_push.sh
+# chmod +xrw ./script/common/global_push.sh
 
 echo "\n
 ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐\t

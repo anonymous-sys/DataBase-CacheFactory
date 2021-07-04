@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 #!/bin/bash
 
-# chmod +xrw ./script/non_proxy_push.sh
+# chmod +xrw ./script/common/non_proxy_push.sh
 
 echo "\n
 ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐\t

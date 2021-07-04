@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 #!/bin/bash
 
-# chmod +xrw ./script/off_proxy_pull_dataset.sh
+# chmod +xrw ./script/common/off_proxy_pull_dataset.sh
 
 echo "\n\n<Automated Execution Command 🕐  $(date +%00000:%S)>:  \$>_  🔐   UnSet Proxy -> HTTP  🔓 "
 git config --global --unset http.proxy
