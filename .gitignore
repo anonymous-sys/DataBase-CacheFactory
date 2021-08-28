@@ -145,7 +145,6 @@ out
 gen
 !/.metals/
 
-
 # Build and Release Folders
 bin-debug/
 bin-release/

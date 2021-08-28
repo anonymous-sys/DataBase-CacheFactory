@@ -37,7 +37,7 @@ git add .
 echo "\n"
 
 echo "\n<Automated Execution Command 🕑  $(date +%00000:%S)>:  \$_>  💬   Commit Information  📲\n"
-git commit -S -a -m "Success Build Data Base Cache Factory"
+git commit -S -a -m "Automation Build - Data Base Cache Factory"
 echo "\n"
 
 echo "\n<Automated Execution Command 🕒  $(date +%00000:%S)>:  \$>_  📮   Push 'Dev' Branch  📤\n"
